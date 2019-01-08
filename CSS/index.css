@@ -79,9 +79,20 @@
     cursor: pointer;
     transform: translate(-50%);
     background-color: white; }
+  .article .removeBtn {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    font-size: 12px;
+    color: grey;
+    cursor: pointer;
+    background-color: white; }
 
 .article-open {
-  height: 400px; }
+  height: auto; }
+
+.article-close {
+  display: none; }
 
 html,
 body {
